@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+.title_section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.title_section span {
+  height: 2px;
+  width: 100%;
+  background-color: #2e2e2e;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  text-wrap: nowrap;
+}
+
+.about_text {
+  font-size: 1.3rem;
+  color: #ababab;
+  text-align: justify;
+}
+
+.about_text2 {
+  margin-top: 1.2rem;
+  font-size: 1.3rem;
+  color: #ababab;
+  text-align: justify;
+}
+
+
+.content {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}

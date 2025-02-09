@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 900;
+  text-wrap: nowrap;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.group{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: .5rem;
+  row-gap: .5rem;
+}

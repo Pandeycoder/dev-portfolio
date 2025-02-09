@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+
+.anchor{
+  padding-bottom: 1rem;
+
+}
+
+.container{
+}
+
+.title_section {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
+.title_section span {
+    height: 2px;
+    width: 100%;
+    background-color: #2e2e2e;
+  }
+
+  .title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-wrap: nowrap;
+  }
+
+  .card_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center
+  }
